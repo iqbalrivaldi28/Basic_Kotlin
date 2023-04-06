@@ -133,6 +133,13 @@ fun main()  {
         print(i)
     }
 
+    println()
+
+    for (i in argumentNumber){
+        if (i == null) break
+        print(i)
+    }
+
 
 }
 
